@@ -25,6 +25,7 @@
 		ED793FF921544CD60088091C /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FF821544CD60088091C /* PlatCell.swift */; };
 		ED793FFB215450420088091C /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FFA215450420088091C /* ALaCarte.swift */; };
 		ED793FFD21545E410088091C /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FFC21545E410088091C /* DetailController.swift */; };
+		ED793FFF215461580088091C /* PlatVue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FFE215461580088091C /* PlatVue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		ED793FF821544CD60088091C /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
 		ED793FFA215450420088091C /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 		ED793FFC21545E410088091C /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		ED793FFE215461580088091C /* PlatVue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatVue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				ED793FF821544CD60088091C /* PlatCell.swift */,
 				ED793FEC2153EB2B0088091C /* MenuCell.swift */,
 				ED793FF6215444150088091C /* Degrade.swift */,
+				ED793FFE215461580088091C /* PlatVue.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				ED793FFB215450420088091C /* ALaCarte.swift in Sources */,
 				ED793FF32153F8370088091C /* Menu.swift in Sources */,
 				ED793FE22153D0500088091C /* MenuController.swift in Sources */,
+				ED793FFF215461580088091C /* PlatVue.swift in Sources */,
 				ED793FF52153F8C80088091C /* LesPlats.swift in Sources */,
 				ED793FCD2153C73D0088091C /* AppDelegate.swift in Sources */,
 				ED793FEF2153F1160088091C /* Plat.swift in Sources */,
