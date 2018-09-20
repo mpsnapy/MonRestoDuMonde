@@ -19,6 +19,8 @@
 		ED793FED2153EB2B0088091C /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FEC2153EB2B0088091C /* MenuCell.swift */; };
 		ED793FEF2153F1160088091C /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FEE2153F1160088091C /* Plat.swift */; };
 		ED793FF12153F2C70088091C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FF02153F2C70088091C /* Enums.swift */; };
+		ED793FF32153F8370088091C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FF22153F8370088091C /* Menu.swift */; };
+		ED793FF52153F8C80088091C /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FF42153F8C80088091C /* LesPlats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		ED793FEC2153EB2B0088091C /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 		ED793FEE2153F1160088091C /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
 		ED793FF02153F2C70088091C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		ED793FF22153F8370088091C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		ED793FF42153F8C80088091C /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			children = (
 				ED793FF02153F2C70088091C /* Enums.swift */,
 				ED793FEE2153F1160088091C /* Plat.swift */,
+				ED793FF22153F8370088091C /* Menu.swift */,
+				ED793FF42153F8C80088091C /* LesPlats.swift */,
 			);
 			name = "Modèle";
 			path = "Modèle";
@@ -194,7 +200,9 @@
 				ED793FE92153D30C0088091C /* Constantes.swift in Sources */,
 				ED793FE62153D1E30088091C /* MonTabBar.swift in Sources */,
 				ED793FEB2153D5020088091C /* MonNav.swift in Sources */,
+				ED793FF32153F8370088091C /* Menu.swift in Sources */,
 				ED793FE22153D0500088091C /* MenuController.swift in Sources */,
+				ED793FF52153F8C80088091C /* LesPlats.swift in Sources */,
 				ED793FCD2153C73D0088091C /* AppDelegate.swift in Sources */,
 				ED793FEF2153F1160088091C /* Plat.swift in Sources */,
 				ED793FF12153F2C70088091C /* Enums.swift in Sources */,
