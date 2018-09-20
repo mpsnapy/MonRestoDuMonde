@@ -95,11 +95,41 @@
                     <navigationItem key="navigationItem" id="yfP-6T-A87"/>
                     <connections>
                         <outlet property="collectionView" destination="Cpc-jC-Wui" id="HNn-qx-3Ur"/>
+                        <segue destination="0vA-k5-2YS" kind="show" identifier="VersDetail" id="f6v-SF-7Dk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hat-AD-YPm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1316" y="-185.75712143928038"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="Wav-iB-1X6">
+            <objects>
+                <viewController id="0vA-k5-2YS" customClass="DetailController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q6b-ZF-dci">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MzC-uQ-SDg">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gUk-bc-fa8" firstAttribute="trailing" secondItem="MzC-uQ-SDg" secondAttribute="trailing" id="VDK-8a-gRO"/>
+                            <constraint firstItem="gUk-bc-fa8" firstAttribute="bottom" secondItem="MzC-uQ-SDg" secondAttribute="bottom" id="gQO-oZ-LQs"/>
+                            <constraint firstItem="MzC-uQ-SDg" firstAttribute="leading" secondItem="gUk-bc-fa8" secondAttribute="leading" id="kdE-VG-xvx"/>
+                            <constraint firstItem="MzC-uQ-SDg" firstAttribute="top" secondItem="gUk-bc-fa8" secondAttribute="top" id="sGL-lD-ePi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gUk-bc-fa8"/>
+                    </view>
+                    <connections>
+                        <outlet property="scroll" destination="MzC-uQ-SDg" id="n1Z-ZE-hP3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xbx-iA-mDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2050" y="-185"/>
         </scene>
         <!--Mon Tab Bar-->
         <scene sceneID="TR5-ec-kW6">
