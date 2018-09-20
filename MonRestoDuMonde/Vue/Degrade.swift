@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Dregrade: CAGradientLayer {
+class Degrade: CAGradientLayer {
     override init(layer: Any) {
         super.init(layer: layer)
         miseEnPlace()

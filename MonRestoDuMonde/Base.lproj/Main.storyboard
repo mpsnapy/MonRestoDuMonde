@@ -49,7 +49,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="bottom" secondItem="d5e-uD-GnL" secondAttribute="bottom" constant="8" id="2Jg-6R-XTd"/>
                                                         <constraint firstItem="d5e-uD-GnL" firstAttribute="leading" secondItem="MWj-hp-3p3" secondAttribute="leading" constant="8" id="EZ8-HS-19c"/>
@@ -66,6 +66,7 @@
                                                 </imageView>
                                             </subviews>
                                         </view>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="MWj-hp-3p3" secondAttribute="bottom" id="0Si-Dv-eTq"/>
                                             <constraint firstAttribute="trailing" secondItem="MWj-hp-3p3" secondAttribute="trailing" id="VYB-nc-eUY"/>
@@ -141,16 +142,16 @@
         <scene sceneID="5QT-RX-TTq">
             <objects>
                 <tableViewController id="MKd-j2-OHk" customClass="ALaCarteController" customModule="MonRestoDuMonde" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Jyl-1S-QJO">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Jyl-1S-QJO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlatCell" rowHeight="175" id="WWj-EO-cVq" customClass="PlatCell" customModule="MonRestoDuMonde" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PlatCell" rowHeight="175" id="WWj-EO-cVq" customClass="PlatCell" customModule="MonRestoDuMonde" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="175"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WWj-EO-cVq" id="dWF-qe-stB">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="174.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="175"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kaT-qd-fWh">
@@ -170,6 +171,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstItem="kaT-qd-fWh" firstAttribute="leading" secondItem="dWF-qe-stB" secondAttribute="leadingMargin" constant="10" id="Log-wT-P6f"/>
                                         <constraint firstItem="lff-H7-Ncd" firstAttribute="leading" secondItem="kaT-qd-fWh" secondAttribute="trailing" constant="8" id="TjS-pO-xrN"/>
@@ -178,6 +180,7 @@
                                         <constraint firstItem="lff-H7-Ncd" firstAttribute="centerY" secondItem="dWF-qe-stB" secondAttribute="centerY" id="mnt-q1-ex5"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <outlet property="descDuPlat" destination="lff-H7-Ncd" id="vo4-zi-k3c"/>
                                     <outlet property="imageDuPlat" destination="kaT-qd-fWh" id="uFt-kC-uhW"/>

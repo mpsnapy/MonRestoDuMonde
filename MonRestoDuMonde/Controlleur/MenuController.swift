@@ -25,7 +25,7 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
         collectionView.dataSource = self
         
         let vue = UIView(frame: collectionView.bounds)
-        vue.layer.addSublayer(Dregrade())
+        vue.layer.addSublayer(Degrade())
         collectionView.backgroundView = vue
         
         menus = LesPlats.obtenir.lesMenus()
