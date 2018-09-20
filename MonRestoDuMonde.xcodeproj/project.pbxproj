@@ -16,6 +16,7 @@
 		ED793FE62153D1E30088091C /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FE52153D1E30088091C /* MonTabBar.swift */; };
 		ED793FE92153D30C0088091C /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FE82153D30C0088091C /* Constantes.swift */; };
 		ED793FEB2153D5020088091C /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FEA2153D5020088091C /* MonNav.swift */; };
+		ED793FED2153EB2B0088091C /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED793FEC2153EB2B0088091C /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ED793FE52153D1E30088091C /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
 		ED793FE82153D30C0088091C /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		ED793FEA2153D5020088091C /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
+		ED793FEC2153EB2B0088091C /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		ED793FDF2153CFD60088091C /* Vue */ = {
 			isa = PBXGroup;
 			children = (
+				ED793FEC2153EB2B0088091C /* MenuCell.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED793FED2153EB2B0088091C /* MenuCell.swift in Sources */,
 				ED793FE92153D30C0088091C /* Constantes.swift in Sources */,
 				ED793FE62153D1E30088091C /* MonTabBar.swift in Sources */,
 				ED793FEB2153D5020088091C /* MonNav.swift in Sources */,
